@@ -142,8 +142,8 @@ export function HeaderMiddle() {
   ));
 
   return (
-    <Header height={56} mb={80}>
-      <Container className={classes.inner}>
+    <Header height={60} mb={50}>
+      <Container size="xl" className={classes.inner}>
         <Burger
           opened={opened}
           onClick={toggle}
@@ -153,7 +153,7 @@ export function HeaderMiddle() {
         <Group position="center">
           <Link href="/">
             <Image
-              src="/logo.png"
+              src="/logo.svg"
               alt="CBC Logo"
               width={40}
               height={45}
